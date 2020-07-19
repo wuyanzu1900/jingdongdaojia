@@ -1,0 +1,32 @@
+.server{
+    background-color:#FFFFFF;
+    width: 720px;
+    margin-left: 16px;
+    border-radius: 25px;
+    height: 400px;
+    margin-top: 30px;
+}
+.content-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content-middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content-last{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.focus{
+    width: 200px;
+    margin-left: 50px;
+
+}

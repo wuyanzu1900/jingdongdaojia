@@ -1,15 +1,14 @@
 import React from 'react';
 import Header from './header/Header';
-import Wallet from './wallet/Wallet';
 import Swiper from './swiper/Swiper';
 import Server from './server/server';
 import More from './more/More';
+import index from './index.css'
 
 function Mine() {
     return (
-        <div>
+        <div className="mine">
             <Header />
-            <Wallet />
             <Swiper />
             <Server />
             <More />

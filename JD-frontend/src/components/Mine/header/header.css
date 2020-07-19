@@ -1,6 +1,150 @@
 .header{
+    height: 400px;
+    width: 100vw;
+    overflow: hidden;
+}
+.header-bg{
+    height: 400px;
+    position: absolute;
+    top: 0;left: 0;
+    bottom: 0;right: 0;
+    z-index: 0;
+}
+.login-Head-portrait{
+    border-color: rgb(255, 255, 255);
+    border-radius: 26px;
+    z-index: 3;
     position: relative;
-    width: 375.2em;
-    height: 200px;
+    display: flex;
+    align-items: center;
+    top: 120px;
+    left: 40px;
+    box-sizing: border-box;
     
+}
+.login-box-border{
+    width: 118px;
+    height: 118px;
+    background-color: #FFFFFF;
+    z-index: 1;
+    border-radius:100px ;
+    border-color:rgb(255, 255, 255) ;
+}
+.Head-portrait{
+    width: 104px;
+    height: 104px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+.login-text{
+    position: absolute;
+    font-weight: bold;
+    font-family: PingFangSC-Regular;
+    font-size: 32px;
+    color:rgb(255, 255, 255); 
+    left: 150px;
+    
+}
+.arrow{
+    position: absolute;
+    font-weight: bold;
+    font-family: PingFangSC-Regular;
+    font-size: 32px;
+    color:rgb(255, 255, 255); 
+    left: 300px;
+    bottom: 32px;
+}
+.message{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.wallet{
+    height: 80px;
+    background-color:#FFFFFF;
+    position: absolute;
+    width: 720px;
+    height: 150px;
+    left: 16px;
+    top: 280px;
+    border-radius: 25px;
+    display: flex;
+}
+.mywallet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.line{
+    margin-top: 19px;
+    margin-left: 10px;
+
+}
+.kinds{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.red-packet{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.hongbao{
+    margin-left: -8px;
+}
+.discount{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.bean{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.white-bar{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.null1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.null2{
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 80px;
+}
+.youhuiquan{
+    margin-left: 55px;
+}
+.null3{
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 75px;
+}
+.xiandou{
+    margin-left: 60px;
+}
+.null4{
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left:70px;
+}
+.baitiao{
+    margin-left:60px;
 }
