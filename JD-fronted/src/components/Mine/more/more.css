@@ -1,0 +1,72 @@
+.more{
+    background-color:#FFFFFF;
+    width: 720px;
+    margin-left: 16px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+.more-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 9;
+}
+.more-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.more-title{
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 1280px;
+    left: 40px;
+    
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    margin-top: 115px;
+    margin-left: 30px;
+
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    margin-top: 115px;
+}
+.merchants{
+    display: flex;
+    flex-direction: column;
+    margin-top: 115px;
+}
+.financial{
+    display: flex;
+    flex-direction: column;
+    margin-top: 115px;
+    margin-right: -10px;
+}
+.discounts{
+    display: flex;
+    flex-direction: column;
+    margin-left: -180px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.hotline{
+    display: flex;
+    flex-direction: column;
+    margin-left: -400px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.pay{
+    display: flex;
+    flex-direction: column;
+    margin-left: -400px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}

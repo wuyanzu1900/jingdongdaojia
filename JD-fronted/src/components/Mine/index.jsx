@@ -3,6 +3,7 @@ import Header from './header/Header';
 import Swiper from './swiper/Swiper';
 import Server from './server/server';
 import More from './more/More';
+import Tabbar from './tabbar/Tabbar'
 import index from './index.css'
 
 function Mine() {
@@ -12,6 +13,7 @@ function Mine() {
             <Swiper />
             <Server />
             <More />
+            <Tabbar />
         </div>
 
     )
