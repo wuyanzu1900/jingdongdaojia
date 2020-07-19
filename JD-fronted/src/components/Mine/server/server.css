@@ -1,0 +1,86 @@
+.server{
+    background-color:#FFFFFF;
+    width: 720px;
+    margin-left: 16px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+.content-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content-middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content-last{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.title{
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 650px;
+    left: 40px;
+    
+}
+.focus{
+    display: flex;
+    flex-direction: column;
+    margin-top: 95px;
+    margin-left: 30px;
+
+}
+.comment{
+    display: flex;
+    flex-direction: column;
+    margin-top: 95px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    margin-top: 95px;
+}
+.member{
+    display: flex;
+    flex-direction: column;
+    margin-top: 95px;
+    margin-right: -10px;
+}
+.plusmember{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.bonus{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.refund{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 70px;
+    margin-top: 40px;
+}   
+.help{
+    
+    display: flex;
+    flex-direction: column;
+    margin-right: 510px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
