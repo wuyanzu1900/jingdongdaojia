@@ -12,11 +12,13 @@
     flex-direction: row;
     justify-content: space-around;
     z-index: 9;
+    font-size: 20px;
 }
 .more-bottom{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-size: 20px;
 }
 .more-title{
     font-size: 32px;

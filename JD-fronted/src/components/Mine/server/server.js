@@ -12,11 +12,12 @@ import help from '../../../images/help.png'
 function Server() {
     return (
         <div className="server">
-            <span className="title">功能服务</span>   
+            <span className="title">功能服务</span>
             <div className="content-top">
                 <div className="focus">
                     <img src={focus} alt="" />
                     <span>我的关注</span>
+
                 </div>
                 <div className="comment">
                     <img src={comment} alt="" />
@@ -27,6 +28,7 @@ function Server() {
                     <span>我的地址</span>
                 </div>
                 <div className="member">
+                <span className="dot1"></span>
                     <img src={member} alt="" />
                     <span>商家会员</span>
                 </div>
@@ -34,14 +36,17 @@ function Server() {
             </div>
             <div className="content-middle">
                 <div className="plusmember">
+                <span className="dot2"></span>
                     <img src={plusmember} alt="" />
-                    <span >V+会员</span>
+                    <span >V+  会员</span>
                 </div>
                 <div className="bonus">
+                <span className="dot3"></span>
                     <img src={bonus} alt="" />
                     <span >我的奖励金</span>
                 </div>
                 <div className="sign">
+                <span className="dot4"></span>
                     <img src={sign} alt="" />
                     <span >签到有惊喜</span>
                 </div>
@@ -52,8 +57,9 @@ function Server() {
             </div>
             <div className="content-last">
                 <div className="help">
+                <span className="dot5"></span>
                     <img src={help} alt="" />
-                    <span>我的关注</span>
+                    <span>客服与帮助</span>
                 </div>
             </div>
         </div>
