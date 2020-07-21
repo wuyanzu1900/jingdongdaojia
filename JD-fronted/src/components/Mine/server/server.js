@@ -23,7 +23,7 @@ function Server() {
                     <img src={comment} alt="" />
                     <span>我的评价</span>
                 </div>
-                <div className="address">
+                <div className="server-address">
                     <img src={address} alt="" />
                     <span>我的地址</span>
                 </div>

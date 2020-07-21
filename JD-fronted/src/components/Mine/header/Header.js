@@ -37,7 +37,7 @@ function Header() {
                         <span className="null1">-</span>
                         <span className="hongbao">红包</span>
                     </div>
-                    <div className="discount">
+                    <div className="Mine-discount">
                         <span className="null2">-</span>
                         <span className="youhuiquan">优惠券</span>
                     </div>

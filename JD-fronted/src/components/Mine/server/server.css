@@ -52,7 +52,7 @@
     margin-top: 95px;
     align-items: center;
 }
-.address{
+.server-address{
     display: flex;
     flex-direction: column;
     margin-top: 95px;
@@ -72,7 +72,7 @@
     background-color: red;
     border-radius: 5px;
     z-index: 4;
-    right:100px;
+    left:650px;
     top: 730px;
     
 }

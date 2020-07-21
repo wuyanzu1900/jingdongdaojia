@@ -1,0 +1,53 @@
+.top{
+    width: 100%;
+    position: relative;
+    /* min-height: 1rem; */
+    /* display: flex; */
+}
+.topImg{
+    width: 100%;
+    position: absolute;
+    z-index: -3;
+    /* width: ; */
+}
+.topImg img{
+    width: 100%;
+}
+.homeAddress{
+    padding-top: 1.1rem;
+    display: flex;
+    padding-left: 0.29rem;
+    padding-right: 0.29rem;
+    /* position: relative; */
+}
+.homeAddressInfo{
+    display: flex;
+    align-items: center;
+}
+.homeAddress-img {
+    width: 0.5rem;
+    padding-right: 0.26rem;
+}
+.homeAddress-img img{
+    width: 100%;
+}
+.homeAddressname{
+    font-size: 0.5rem;
+    color: #fff;
+}
+.selector{
+    height: 0.16rem;
+    padding-left: 0.13rem;
+}
+.selector img{
+    height: 100%;
+}
+.new{
+    width: 0.62rem;
+    /* float: right; */
+    position: absolute;
+    right: 0.29rem;
+}
+.new img{
+    width: 100%;
+}
