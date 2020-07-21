@@ -17,14 +17,17 @@ function More() {
                     <span>关于我们</span>
                 </div>
                 <div className="register">
+                    <div className="more-dot1"></div>
                     <img src={register} alt="" />
                     <span>配送员注册</span>
                 </div>
                 <div className="merchants">
+                    <div className="more-dot2"></div>
                     <img src={merchants} alt="" />
                     <span>商家入驻</span>
                 </div>
                 <div className="financial">
+                    <div className="more-dot3"></div>
                     <img src={financial} alt="" />
                     <span>金融权益</span>
                 </div>
@@ -32,14 +35,17 @@ function More() {
             </div>
             <div className="more-bottom">
                 <div className="discounts">
+                    <div className="more-dot4"></div>
                     <img src={discounts} alt="" />
                     <span >白条立减</span>
                 </div>
                 <div className="hotline">
+                    <div className="more-dot5"></div>
                     <img src={hotline} alt="" />
                     <span >全城热线8</span>
                 </div>
                 <div className="pay">
+                    <div className="more-dot6"></div>
                     <img src={pay} alt="" />
                     <span >支付优惠</span>
                 </div>

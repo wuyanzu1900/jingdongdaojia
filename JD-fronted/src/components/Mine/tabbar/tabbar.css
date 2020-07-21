@@ -12,25 +12,30 @@
 .index{
     display: flex;
     flex-direction: column;
-    margin-left: 70px;
+    margin-left: 55px;
+    align-items: center;
 }
 .find{
     display: flex;
     flex-direction: column;
     margin-left: 70px;
+    align-items: center;
 }
 .shopping{
     display: flex;
     flex-direction: column;
     margin-left: 70px;
+    align-items: center;
 }
 .ordering{
     display: flex;
     flex-direction: column;
     margin-left: 70px;
+    align-items: center;
 }
 .my{
     display: flex;
     flex-direction: column;
     margin-left: 70px;
+    align-items: center;
 }

@@ -19,6 +19,7 @@
     flex-direction: row;
     justify-content: space-around;
     font-size: 20px;
+    
 }
 .more-title{
     font-size: 32px;
@@ -33,42 +34,109 @@
     flex-direction: column;
     margin-top: 115px;
     margin-left: 30px;
+    align-items: center;
 
 }
 .register{
     display: flex;
     flex-direction: column;
     margin-top: 115px;
+    align-items: center;
+}
+.more-dot1{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    border-radius: 5px;
+    z-index: 4;
+    left:320px;
+    top: 1360px;
 }
 .merchants{
     display: flex;
     flex-direction: column;
     margin-top: 115px;
+    align-items: center;
+}
+.more-dot2{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    border-radius: 5px;
+    z-index: 4;
+    left:480px;
+    top: 1360px;
 }
 .financial{
     display: flex;
     flex-direction: column;
     margin-top: 115px;
     margin-right: -10px;
+    align-items: center;
+}
+.more-dot3{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    border-radius: 5px;
+    z-index: 4;
+    left:640px;
+    top: 1360px;
 }
 .discounts{
     display: flex;
     flex-direction: column;
-    margin-left: -180px;
+    margin-left: -190px;
     margin-top: 40px;
     margin-bottom: 50px;
+    align-items: center;
+}
+.more-dot4{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    border-radius: 5px;
+    z-index: 4;
+    left:160px;
+    top: 1520px;
 }
 .hotline{
     display: flex;
     flex-direction: column;
-    margin-left: -400px;
+    margin-left: -430px;
     margin-top: 40px;
     margin-bottom: 50px;
+    align-items: center;
+}
+.more-dot5{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    border-radius: 5px;
+    z-index: 4;
+    left:320px;
+    top: 1520px;
 }
 .pay{
     display: flex;
     flex-direction: column;
-    margin-left: -400px;
+    margin-left: -430px;
     margin-top: 40px;
     margin-bottom: 50px;
+    align-items: center;
+}
+.more-dot6{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    border-radius: 5px;
+    z-index: 4;
+    left:490px;
+    top: 1520px;
 }
