@@ -1,0 +1,42 @@
+.mineredpacket {
+    background-color: #FFFFFF;
+}
+
+.mineredpacket-content {
+    margin-top: 25vh;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mineredpacket-bg {
+    width: 320px;
+    height: 280px;
+}
+
+.content-text {
+    margin-top: 80px;
+    font-size: 30px;
+}
+
+.mineredpacket-footer {
+    margin-top: 20vh;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    color: #47b34f;
+    font-size: 30px;
+}
+
+.left-footer {
+    margin-left: 180px;
+}
+
+.center-footer {
+    margin-left: 20px;
+}
+
+.right-footer {
+    margin-left: 20px;
+}

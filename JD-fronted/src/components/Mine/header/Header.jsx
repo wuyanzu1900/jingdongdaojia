@@ -12,6 +12,7 @@ import MineMessage from './minemessage/MineMessage';
 import ProfilePhoto from './profilephoto/ProfilePhoto'
 import MessageChange from './messagechange/MessageChange'
 import MineWallet from './minewallet/MineWallet'
+import MineRedPacket from './mineredpacket/MineRedPacket'
 
 
 function Header() {
@@ -54,10 +55,13 @@ function Header() {
                     <img src={line} alt="" />
                 </div>
                 <div className="kinds">
+                    <Link to ="/mineredpacket">
                     <div className="red-packet">
                         <span className="null1">0</span>
                         <span className="hongbao">红包</span>
                     </div>
+                    </Link>
+                    
                     <div className="Mine-discount">
                         <span className="null2">0</span>
                         <span className="youhuiquan">优惠券</span>
@@ -73,10 +77,6 @@ function Header() {
                 </div>
 
             </div>
-            {/* <BrowserRouter> */}
-
-
-            {/* </BrowserRouter> */}
         </div>
     )
 }
