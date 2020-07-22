@@ -1,16 +1,17 @@
 import React from 'react';
 import Header from './header/Header';
-import Swiper from './swiper/Swiper';
+// import MineSwiper from './mineswiper/MineSwiper';
 import Server from './server/server';
 import More from './more/More';
 import Tabbar from '../common/tabBar/index'
 import index from './index.css'
+import MineSwiper from './MineSwiper/MineSwiper';
 
 function Mine() {
     return (
         <div className="mine">
             <Header />
-            <Swiper />
+            <MineSwiper />
             <Server />
             <More />
             <Tabbar />

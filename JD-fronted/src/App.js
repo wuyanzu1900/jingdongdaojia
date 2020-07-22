@@ -9,7 +9,7 @@ import Mine from './components/Mine';
 // import Order from './components/order';
 import ChannelPageType from './components/homepage/channelPageType/ChannelPageType';
 import MineMessage from './components/Mine/header/minemessage/MineMessage';
-
+import ProfilePhoto from './components/Mine/header/profilephoto/ProfilePhoto'
 
 function App() {
 
@@ -21,6 +21,7 @@ function App() {
       {/* <Route path='/shoppingCart' component = {ShoppingCart} /> */}
       {/* <Route path = '/order' component = {Order} /> */}
       <Route path='/minemessage' component={MineMessage} />
+      <Route path='/profilephoto' component={ProfilePhoto} />
       <Route path = '/channelPage/:type'  component = {ChannelPageType} />
       <Redirect from = '/*' to = '/' />
     </HashRouter>

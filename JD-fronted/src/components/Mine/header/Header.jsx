@@ -9,6 +9,8 @@ import headPic from '../../../images/headPic.jpg'
 import change from '../../../images/change.png'
 import { BrowserRouter, Route,Redirect } from 'react-router-dom';
 import MineMessage from './minemessage/MineMessage';
+import ProfilePhoto from './profilephoto/ProfilePhoto'
+
 
 function Header() {
     return (
@@ -16,10 +18,13 @@ function Header() {
             <img src="//static-o2o.360buyimg.com/daojia/react/images/user_center_headbg.02208e0b.png"
                 alt="" draggable="false" className="header-bg" />
             <div className="login-Head-portrait">
+                <Link to="/profilephoto">
                 <div className="login-box-border">
                     <img src={headPic}
                         alt="" draggable="false" className="Head-portrait" />
                 </div>
+                </Link>
+              
                 <span className="login-text">
                     青书
                 </span>

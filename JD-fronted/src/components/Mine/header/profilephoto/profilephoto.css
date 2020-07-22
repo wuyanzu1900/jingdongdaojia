@@ -1,0 +1,62 @@
+.ProfilePhoto{
+    background-color: #F6F6F6;
+    height: 100vh;
+    
+}
+.profilephoto-content{
+    position: relative;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+    color: #555555;
+}
+.mine-photo{
+    background-color: #FFFFFF;
+    border-bottom: 3px solid #F5F5F5;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+}
+.mine-photopic{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: 520px;
+    margin-top: 30px;
+}
+.mine-phototitle{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.mine-username{
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #F5F5F5;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+}
+.mine-usernametitle{
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.mine-usernamecontent{
+    margin-left: 500px;
+    margin-top: 25px;
+}
+.mine-nickname{
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #F5F5F5;
+    height: 90px;
+}
+.mine-sex{
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #F5F5F5;
+    height: 90px;
+    
+}
+.mine-birthday{
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #F5F5F5;
+    height: 90px;
+}
