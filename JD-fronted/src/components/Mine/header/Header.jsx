@@ -7,10 +7,11 @@ import line from '../../../images/line.png'
 import wallet from '../../../images/wallet.png'
 import headPic from '../../../images/headPic.jpg'
 import change from '../../../images/change.png'
-import { BrowserRouter, Route,Redirect } from 'react-router-dom';
+import { BrowserRouter, Route, Redirect } from 'react-router-dom';
 import MineMessage from './minemessage/MineMessage';
 import ProfilePhoto from './profilephoto/ProfilePhoto'
 import MessageChange from './messagechange/MessageChange'
+import MineWallet from './minewallet/MineWallet'
 
 
 function Header() {
@@ -20,17 +21,17 @@ function Header() {
                 alt="" draggable="false" className="header-bg" />
             <div className="login-Head-portrait">
                 <Link to="/profilephoto">
-                <div className="login-box-border">
-                    <img src={headPic}
-                        alt="" draggable="false" className="Head-portrait" />
-                </div>
-                <span className="login-text">
-                    青书
+                    <div className="login-box-border">
+                        <img src={headPic}
+                            alt="" draggable="false" className="Head-portrait" />
+                    </div>
+                    <span className="login-text">
+                        青书
                     </span>
                 </Link>
-                <Link to ="/messagechange">
-                <span className="mine-phone">182****4867</span>
-                <img src={change} alt="" draggable="false" className="mine-message-change" />
+                <Link to="/messagechange">
+                    <span className="mine-phone">182****4867</span>
+                    <img src={change} alt="" draggable="false" className="mine-message-change" />
                 </Link>
             </div>
             <Link to="/minemessage">
@@ -40,9 +41,15 @@ function Header() {
                 </div>
             </Link>
             <div className="wallet">
-                <div className="mywallet">
-                    <img src={wallet} alt="" />
-                    我的钱包</div>
+                <Link to="/minewallet">
+                    <div className="mywallet">
+                        <img src={wallet} alt="" />
+                        <span className="mywallet-title">
+                            我的钱包
+                        </span>
+                    </div>
+                </Link>
+
                 <div className="line">
                     <img src={line} alt="" />
                 </div>
@@ -67,8 +74,8 @@ function Header() {
 
             </div>
             {/* <BrowserRouter> */}
-               
-                
+
+
             {/* </BrowserRouter> */}
         </div>
     )
