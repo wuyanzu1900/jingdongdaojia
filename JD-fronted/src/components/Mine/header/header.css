@@ -1,7 +1,8 @@
 .header{
-    height: 400px;
+    height: 440px;
     width: 100vw;
     overflow: hidden;
+    position: relative;
 }
 .header-bg{
     height: 400px;
@@ -36,6 +37,15 @@
     position: absolute;
     left: 5px;
     top: 5px;
+    border-radius: 50%;
+}
+.mine-phone{
+    position: absolute;
+    color:rgb(255, 255, 255); 
+    font-family: PingFangSC-Regular;
+    font-size: 32px;
+    left: 140px;
+    top: 50px;
 }
 .login-text{
     position: absolute;
@@ -43,22 +53,29 @@
     font-family: PingFangSC-Regular;
     font-size: 32px;
     color:rgb(255, 255, 255); 
-    left: 150px;
+    left: 140px;
+    top: 10px;
     
 }
-.arrow{
-    position: absolute;
-    font-weight: bold;
-    font-family: PingFangSC-Regular;
-    font-size: 32px;
-    color:rgb(255, 255, 255); 
-    left: 300px;
-    bottom: 32px;
+.mine-message-change{
+    position: relative;
+    top: 10px;
+    left: 230px;
 }
 .message{
-    position: absolute;
-    right: 30px;
-    top: 30px;
+    position: relative;
+    left: 680px;
+    top: -100px; 
+    
+}
+.message-dot{
+    position: relative;
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    border-radius: 5px;
+    right: -40px;
+    top: 5px;
 }
 .wallet{
     height: 80px;
@@ -70,6 +87,7 @@
     top: 280px;
     border-radius: 25px;
     display: flex;
+    z-index: 4;
 }
 .mywallet{
     display: flex;
@@ -114,36 +132,37 @@
 }
 .null1{
     font-weight: bold;
-    font-size: 50px;
-    margin-top: 10px;
+    font-size: 40px;
+    margin-top: 25px;
     margin-bottom: 8px;
 }
 .null2{
     font-weight: bold;
-    font-size: 50px;
-    margin-top: 10px;
+    font-size: 40px;
+    margin-top: 25px;
     margin-bottom: 8px;
-    margin-left: 80px;
+    margin-left: 70px;
 }
 .youhuiquan{
     margin-left: 55px;
+    align-items: center;
 }
 .null3{
     font-weight: bold;
-    font-size: 50px;
-    margin-top: 10px;
+    font-size: 40px;
+    margin-top: 25px;
     margin-bottom: 8px;
-    margin-left: 75px;
+    margin-left: 65px;
 }
 .xiandou{
     margin-left: 60px;
 }
 .null4{
     font-weight: bold;
-    font-size: 50px;
-    margin-top: 10px;
+    font-size: 40px;
+    margin-top: 25px;
     margin-bottom: 8px;
-    margin-left:70px;
+    margin-left:35px;
 }
 .baitiao{
     margin-left:60px;

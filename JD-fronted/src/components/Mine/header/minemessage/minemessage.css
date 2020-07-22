@@ -1,0 +1,83 @@
+.mine-message{
+    background-color: #F6F6F6;
+    height: 100vh;
+    font-size: 30px;
+    
+    
+}
+.online-service{
+    background-color: #FFFFFF;
+    height: 160px;
+    border-bottom: 2px solid #F5F5F5;
+    display: flex;
+    flex-direction: row;
+
+}
+.online{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 74px;
+    height: 79px;
+    
+}
+.message-content{
+    display: flex;
+    flex-direction: column;
+}
+.message-content1{
+    display: flex;
+    flex-direction: column;
+
+}
+.message1{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.message2{
+    margin-top: 20px;
+    margin-left: 15px;
+    color: #666666;
+}
+.logistics{
+    background-color: #FFFFFF;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+}
+.car-logistics{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 69px;
+    height: 75px;
+}
+.message-content2{
+    display: flex;
+    flex-direction: row;
+}
+.logistics1{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.logistics-time{
+    margin-left: 240px;
+    margin-top: 30px;
+    font-size: 25px;
+    color: #9999B3;
+}
+.logistics2{
+    margin-top: 20px;
+    margin-left: 15px;
+    color: #666666;
+}   
+.message-content3{
+    display: flex;
+    flex-direction: row;
+}
+.logistics-dot{
+    width: 18px;
+    height: 18px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+}

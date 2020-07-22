@@ -19,20 +19,21 @@
     flex-direction: row;
     justify-content: space-around;
     font-size: 20px;
+    margin-bottom: 40px;
     
 }
 .more-title{
     font-size: 32px;
     font-weight: bold;
-    position: absolute;
-    top: 1280px;
+    position: relative;
+    top:40px;
     left: 40px;
     
 }
 .about{
     display: flex;
     flex-direction: column;
-    margin-top: 115px;
+    margin-top: 95px;
     margin-left: 30px;
     align-items: center;
 
@@ -40,51 +41,51 @@
 .register{
     display: flex;
     flex-direction: column;
-    margin-top: 115px;
+    margin-top: 85px;
     align-items: center;
 }
 .more-dot1{
-    position: absolute;
+    position: relative;
     width: 13px;
     height: 13px;
     background-color: red;
     border-radius: 5px;
     z-index: 4;
-    left:320px;
-    top: 1360px;
+    left:50px;
+    top: 30px;
 }
 .merchants{
     display: flex;
     flex-direction: column;
-    margin-top: 115px;
+    margin-top: 85px;
     align-items: center;
 }
 .more-dot2{
-    position: absolute;
+    position: relative;
     width: 13px;
     height: 13px;
     background-color: red;
     border-radius: 5px;
     z-index: 4;
-    left:480px;
-    top: 1360px;
+    left:50px;
+    top: 30px;
 }
 .financial{
     display: flex;
     flex-direction: column;
-    margin-top: 115px;
+    margin-top: 85px;
     margin-right: -10px;
     align-items: center;
 }
 .more-dot3{
-    position: absolute;
+    position: relative;
     width: 13px;
     height: 13px;
     background-color: red;
     border-radius: 5px;
     z-index: 4;
-    left:640px;
-    top: 1360px;
+    left:50px;
+    top: 30px;
 }
 .discounts{
     display: flex;
@@ -95,14 +96,14 @@
     align-items: center;
 }
 .more-dot4{
-    position: absolute;
+    position: relative;
     width: 13px;
     height: 13px;
     background-color: red;
     border-radius: 5px;
     z-index: 4;
-    left:160px;
-    top: 1520px;
+    left:50px;
+    top: 30px;
 }
 .hotline{
     display: flex;
@@ -113,14 +114,14 @@
     align-items: center;
 }
 .more-dot5{
-    position: absolute;
+    position: relative;
     width: 13px;
     height: 13px;
     background-color: red;
     border-radius: 5px;
     z-index: 4;
-    left:320px;
-    top: 1520px;
+    left:50px;
+    top: 30px;
 }
 .pay{
     display: flex;
@@ -131,12 +132,12 @@
     align-items: center;
 }
 .more-dot6{
-    position: absolute;
+    position: relative;
     width: 13px;
     height: 13px;
     background-color: red;
     border-radius: 5px;
     z-index: 4;
-    left:490px;
-    top: 1520px;
+    left:50px;
+    top: 30px;
 }
