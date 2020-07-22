@@ -1,0 +1,143 @@
+.more{
+    background-color:#FFFFFF;
+    width: 720px;
+    margin-left: 16px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+.more-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 9;
+    font-size: 20px;
+}
+.more-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-bottom: 40px;
+    
+}
+.more-title{
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    top:40px;
+    left: 40px;
+    
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    margin-top: 95px;
+    margin-left: 30px;
+    align-items: center;
+
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    align-items: center;
+}
+.more-dot1{
+    position: relative;
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    border-radius: 5px;
+    z-index: 4;
+    left:50px;
+    top: 30px;
+}
+.merchants{
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    align-items: center;
+}
+.more-dot2{
+    position: relative;
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    border-radius: 5px;
+    z-index: 4;
+    left:50px;
+    top: 30px;
+}
+.financial{
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    margin-right: -10px;
+    align-items: center;
+}
+.more-dot3{
+    position: relative;
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    border-radius: 5px;
+    z-index: 4;
+    left:50px;
+    top: 30px;
+}
+.discounts{
+    display: flex;
+    flex-direction: column;
+    margin-left: -190px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.more-dot4{
+    position: relative;
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    border-radius: 5px;
+    z-index: 4;
+    left:50px;
+    top: 30px;
+}
+.hotline{
+    display: flex;
+    flex-direction: column;
+    margin-left: -430px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.more-dot5{
+    position: relative;
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    border-radius: 5px;
+    z-index: 4;
+    left:50px;
+    top: 30px;
+}
+.pay{
+    display: flex;
+    flex-direction: column;
+    margin-left: -430px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.more-dot6{
+    position: relative;
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    border-radius: 5px;
+    z-index: 4;
+    left:50px;
+    top: 30px;
+}

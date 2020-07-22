@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import ImgSwiper1 from '../../../swiper/imgSwiper1/ImgSwiper1'
+import ImgSwiper from '../../../swiper/imgSwiper/ImgSwiper'
 import swiper from '../../../images/swiper1.png'
 import swiper1 from '../../../images/swiper2.png'
 import swiper2 from '../../../images/swiper3.png'
@@ -10,7 +10,7 @@ export default function MineSwiper() {
     const [paginationName] = useState('MinePaginationName')
     return (
         <div className="mineswiper">
-            <ImgSwiper1 swiperName={SwieprName} paginationName={paginationName}>
+            <ImgSwiper swiperName={SwieprName} paginationName={paginationName}>
                 <div className="mineswiper-img">
                     <img src={swiper} alt="" />
                 </div>
@@ -21,7 +21,7 @@ export default function MineSwiper() {
                     <img src={swiper2} alt="" />
                 </div>
 
-            </ImgSwiper1>
+            </ImgSwiper>
         </div>
     )
 }

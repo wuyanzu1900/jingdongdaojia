@@ -1,0 +1,87 @@
+.messagechange {
+    background-color: #F6F6F6;
+    height: 100vh;
+}
+
+.messagechange-head {
+    height: 9vh;
+}
+
+.messagechange-ways {
+    font-size: 35px;
+    color: #000000;
+    left: 30px;
+    top: 40px;
+    position: relative;
+}
+
+.messagechange-content {
+    display: flex;
+    flex-direction: column;
+    height: 27vh;
+    background-color: #FFFFFF;
+}
+
+.messagechange-card {
+    height: 9vh;
+    border-bottom: 4px solid #F5F5F5;
+}
+
+.card-img {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.card-title {
+    top: -20px;
+    left: 30px;
+    position: relative;
+    font-size: 32px;
+    color: #000000;
+}
+
+.messagechange-cardmessage {
+    height: 9vh;
+    border-bottom: 4px solid #F5F5F5;
+}
+
+.cardmessage-img {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.cardmessage-title {
+    top: -20px;
+    left: 30px;
+    position: relative;
+    font-size: 32px;
+    color: #000000;
+}
+
+.messagechange-verify {
+    height: 9vh;
+    border-bottom: 4px solid #F5F5F5;
+}
+
+.verify-img {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.verify-title {
+    top: -20px;
+    left: 30px;
+    position: relative;
+    font-size: 32px;
+    color: #000000;
+}
+
+.messagechange-arrow {
+    position: relative;
+    left: 260px;
+}
+
+.messagechange-arrow1 {
+    position: relative;
+    left: 290px;
+}

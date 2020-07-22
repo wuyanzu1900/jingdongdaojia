@@ -10,7 +10,6 @@ import change from '../../../images/change.png'
 import { BrowserRouter, Route,Redirect } from 'react-router-dom';
 import MineMessage from './minemessage/MineMessage';
 import ProfilePhoto from './profilephoto/ProfilePhoto'
-import MessageChange from './messagechange/MessageChange'
 
 
 function Header() {
@@ -24,14 +23,13 @@ function Header() {
                     <img src={headPic}
                         alt="" draggable="false" className="Head-portrait" />
                 </div>
+                </Link>
+              
                 <span className="login-text">
                     青书
-                    </span>
-                </Link>
-                <Link to ="/messagechange">
+                </span>
                 <span className="mine-phone">182****4867</span>
                 <img src={change} alt="" draggable="false" className="mine-message-change" />
-                </Link>
             </div>
             <Link to="/minemessage">
                 <div className="message">

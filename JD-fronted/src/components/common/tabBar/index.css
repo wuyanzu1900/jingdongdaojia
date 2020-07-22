@@ -1,4 +1,4 @@
-.tabBar{
+.tabBar {
     position: absolute;
     bottom: 0;
     display: flex;
@@ -7,17 +7,19 @@
     background-color: #fff;
     z-index: 5;
 }
-.tab-item{
+
+.tab-item {
     flex: 1;
-    
 }
-.tab{
-display: flex;
+
+.tab {
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: column;
 }
-.iconfont{
+
+.iconfont {
     font-size: 0.87rem;
     flex: 1;
 }

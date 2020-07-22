@@ -1,8 +1,9 @@
 .mineswiper{
-    position: relative;
     overflow-x: hidden;
-    
 }
 .MinePaginationName{
-    position: absolute;
+    position: relative;
+    height: 20px;
+    
+    
 }
