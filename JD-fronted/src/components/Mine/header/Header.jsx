@@ -7,6 +7,8 @@ import line from '../../../images/line.png'
 import wallet from '../../../images/wallet.png'
 import headPic from '../../../images/headPic.jpg'
 import change from '../../../images/change.png'
+import mineheaderbg from '../../../images/mineheaderbg.png'
+import vplusbg from '../../../images/Vplusbg.png'
 import { BrowserRouter, Route, Redirect } from 'react-router-dom';
 import MineMessage from './minemessage/MineMessage';
 import ProfilePhoto from './profilephoto/ProfilePhoto'
@@ -18,7 +20,7 @@ import MineRedPacket from './mineredpacket/MineRedPacket'
 function Header() {
     return (
         <div className="header">
-            <img src="//static-o2o.360buyimg.com/daojia/react/images/user_center_headbg.02208e0b.png"
+            <img src={mineheaderbg}
                 alt="" draggable="false" className="header-bg" />
             <div className="login-Head-portrait">
                 <Link to="/profilephoto">
@@ -41,6 +43,9 @@ function Header() {
                     <img src={message} alt="" />
                 </div>
             </Link>
+            <div className="vplusmember">
+                <img src={vplusbg} alt="" className="vplusmemberbg" />
+            </div>
             <div className="wallet">
                 <Link to="/minewallet">
                     <div className="mywallet">
@@ -55,17 +60,18 @@ function Header() {
                     <img src={line} alt="" />
                 </div>
                 <div className="kinds">
-                    <Link to ="/mineredpacket">
-                    <div className="red-packet">
-                        <span className="null1">0</span>
-                        <span className="hongbao">红包</span>
-                    </div>
+                    <Link to="/mineredpacket">
+                        <div className="red-packet">
+                            <span className="null1">0</span>
+                            <span className="hongbao">红包</span>
+                        </div>
                     </Link>
-                    
-                    <div className="Mine-discount">
-                        <span className="null2">0</span>
-                        <span className="youhuiquan">优惠券</span>
-                    </div>
+                    <Link to="/minewalletdiscount">
+                        <div className="Mine-discount">
+                            <span className="null2">0</span>
+                            <span className="youhuiquan">优惠券</span>
+                        </div>
+                    </Link>
                     <div className="bean">
                         <span className="null3">0</span>
                         <span className="xiandou">鲜豆</span>
@@ -75,9 +81,9 @@ function Header() {
                         <span className="baitiao">白条</span>
                     </div>
                 </div>
-
             </div>
         </div>
+        
     )
 }
 export default Header

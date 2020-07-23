@@ -1,144 +1,149 @@
-.server{
-    background-color:#FFFFFF;
+.server {
+    background-color: #FFFFFF;
     width: 720px;
     margin-left: 16px;
     border-radius: 25px;
-    margin-top: 30px;
-    
-    
-    
+    margin-top: -30px;
 }
-.content-top{
+
+.content-top {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 720px;
     font-size: 20px;
-    
-    
 }
-.content-middle{
+
+.content-middle {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     font-size: 20px;
 }
-.content-last{
+
+.content-last {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     font-size: 20px;
 }
-.title{
+
+.title {
     font-size: 32px;
     font-weight: bold;
     position: relative;
     top: 40px;
     left: 40px;
-    
 }
-.focus{
+
+.focus {
     display: flex;
     flex-direction: column;
     margin-top: 95px;
     margin-left: 30px;
     align-items: center;
+}
 
-}
-.comment{
+.comment {
     display: flex;
     flex-direction: column;
     margin-top: 95px;
     align-items: center;
 }
-.server-address{
+
+.server-address {
     display: flex;
     flex-direction: column;
     margin-top: 95px;
     align-items: center;
 }
-.member{
+
+.member {
     display: flex;
     flex-direction: column;
     margin-top: 80px;
     margin-right: -10px;
     align-items: center;
 }
-.dot1{
+
+.dot1 {
     position: relative;
     width: 13px;
     height: 13px;
     background-color: red;
     border-radius: 5px;
     z-index: 4;
-    left:50px;
+    left: 50px;
     top: 30px;
-    
 }
-.plusmember{
+
+.plusmember {
     display: flex;
     flex-direction: column;
     margin-left: 40px;
     margin-top: 40px;
     align-items: center;
 }
-.dot2{
+
+.dot2 {
     position: relative;
     width: 13px;
     height: 13px;
     background-color: red;
     border-radius: 5px;
     z-index: 4;
-    left:50px;
+    left: 50px;
     top: 30px;
-    
 }
-.bonus{
+
+.bonus {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
     margin-top: 40px;
     align-items: center;
 }
-.dot3{
+
+.dot3 {
     position: relative;
     width: 13px;
     height: 13px;
     background-color: red;
     border-radius: 5px;
     z-index: 4;
-    left:50px;
+    left: 50px;
     top: 30px;
-    
 }
-.sign{
+
+.sign {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
     margin-top: 40px;
     align-items: center;
 }
-.dot4{
+
+.dot4 {
     position: relative;
     width: 13px;
     height: 13px;
     background-color: red;
     border-radius: 5px;
     z-index: 4;
-    left:50px;
+    left: 50px;
     top: 30px;
-    
 }
-.refund{
+
+.refund {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
     margin-right: 70px;
     margin-top: 50px;
     align-items: center;
-}  
-.help{
-    
+}
+
+.help {
     display: flex;
     flex-direction: column;
     margin-right: 510px;
@@ -146,14 +151,14 @@
     margin-top: 30px;
     align-items: center;
 }
-.dot5{
+
+.dot5 {
     position: relative;
     width: 13px;
     height: 13px;
     background-color: red;
     border-radius: 5px;
     z-index: 4;
-    left:50px;
+    left: 50px;
     top: 30px;
-    
 }

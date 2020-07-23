@@ -1,5 +1,5 @@
 .header {
-    height: 440px;
+    height: 640px;
     width: 100vw;
     overflow: hidden;
     position: relative;
@@ -12,7 +12,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    z-index: 0;
+    z-index: 1;
 }
 
 .login-Head-portrait {
@@ -74,6 +74,7 @@
     position: relative;
     left: 680px;
     top: -100px;
+    z-index: 3;
 }
 
 .message-dot {
@@ -86,6 +87,19 @@
     top: 5px;
 }
 
+.vplusmember {
+    z-index: 5;
+    position: absolute;
+    top: 250px;
+    /* z-index: 0; */
+}
+
+.vplusmemberbg {
+    width: 720px;
+    margin-left: 16px;
+    margin-top: 20px;
+}
+
 .wallet {
     height: 80px;
     background-color: #FFFFFF;
@@ -93,7 +107,7 @@
     width: 720px;
     height: 150px;
     left: 16px;
-    top: 280px;
+    top: 420px;
     border-radius: 25px;
     display: flex;
     z-index: 4;
@@ -136,6 +150,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 30px;
+    color: #000000;
 }
 
 .bean {

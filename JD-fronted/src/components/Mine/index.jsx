@@ -6,6 +6,7 @@ import More from './more/More';
 import Tabbar from '../common/tabBar/index'
 import index from './index.css'
 import MineSwiper from './MineSwiper/MineSwiper';
+import QuitButton from './quitbutton/QuitButton'
 
 function Mine() {
     return (
@@ -15,6 +16,7 @@ function Mine() {
             <Server />
             <More />
             <Tabbar />
+            <QuitButton />
         </div>
 
     )
