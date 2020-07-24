@@ -14,6 +14,7 @@ import MessageChange from './components/Mine/header/messagechange/MessageChange'
 import MineWallet from './components/Mine/header/minewallet/MineWallet'
 import MineRedPacket from './components/Mine/header/mineredpacket/MineRedPacket'
 import MineWalletDiscount from './components/Mine/header/minewalletdiscount/MineWalletDiscount'
+import ServerFocus from './components/Mine/server/serverfocus/ServerFocus'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <Route path='/minewallet' component={MineWallet} />
       <Route path='/mineredpacket' component={MineRedPacket} />
       <Route path='/minewalletdiscount' component={MineWalletDiscount} />
+      <Route path='/serverfocus' component={ServerFocus} />
       {/* <Route path='/shoppingCart' component = {ShoppingCart} /> */}
       {/* <Route path = '/order' component = {Order} /> */}
       <Route path='/channelPage/:type' component={ChannelPageType} />
