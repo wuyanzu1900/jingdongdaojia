@@ -1,5 +1,6 @@
 import React from 'react';
 import './minewallet.css'
+import { Link } from 'react-router-dom'
 import bean from '../../../../images/bean.png'
 import shinshop from '../../../../images/shinshop.png'
 import walletcard from '../../../../images/walletcard.png'

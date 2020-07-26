@@ -14,7 +14,7 @@ import ProfilePhoto from './profilephoto/ProfilePhoto'
 
 function Header() {
     return (
-        <div className="header">
+        <div className="no-login-header">
             <img src="//static-o2o.360buyimg.com/daojia/react/images/user_center_headbg.02208e0b.png"
                 alt="" draggable="false" className="header-bg" />
             <div className="login-Head-portrait">
@@ -37,7 +37,7 @@ function Header() {
                     <img src={message} alt="" />
                 </div>
             </Link>
-            <div className="wallet">
+            <div className="nologin-wallet">
                 <div className="mywallet">
                     <img src={wallet} alt="" />
                     我的钱包</div>

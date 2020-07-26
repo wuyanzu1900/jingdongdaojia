@@ -7,7 +7,7 @@ import Tabbar from '../common/tabBar/index'
 import index from './index.css'
 import MineSwiper from './MineSwiper/MineSwiper';
 
-function Mine() {
+function MineNoLogin() {
     return (
         <div className="mine">
             <Header />
@@ -20,4 +20,4 @@ function Mine() {
     )
 }
 
-export default Mine;
+export default MineNoLogin;

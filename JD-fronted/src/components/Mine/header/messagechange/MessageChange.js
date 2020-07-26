@@ -1,12 +1,33 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './messagechange.css'
 import card from '../../../../images/card.png'
 import phone from '../../../../images/phone.png'
 import greaterthan from '../../../../images/greaterthan.png'
 
 function MessageChange() {
+    const [a , seta] = useState('')
+    useEffect(()=>{
+        fetch('http://localhost/supermarket')
+        .then(res=>res.json())
+        .then(res => {
+            seta(res)
+        })
+    },[])
+    console.log(a.ProductArticles)
     return (
         <div className="messagechange">
+            <div>
+                {a.ProductArticles?.map((a)=>{
+                    return (
+                        <div>
+                            <div className="img">
+                                <img src={a.img} alt=""/>
+                            </div>
+                            {a.type}
+                        </div>
+                    )
+                })}
+            </div>
             <div className="messagechange-head">
                 <span className="messagechange-ways">
                     请选择合适的认证方式

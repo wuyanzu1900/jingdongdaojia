@@ -9,6 +9,7 @@ import headPic from '../../../images/headPic.jpg'
 import change from '../../../images/change.png'
 import mineheaderbg from '../../../images/mineheaderbg.png'
 import vplusbg from '../../../images/Vplusbg.png'
+import shadow from '../../../images/shadow.png'
 import { BrowserRouter, Route, Redirect } from 'react-router-dom';
 import MineMessage from './minemessage/MineMessage';
 import ProfilePhoto from './profilephoto/ProfilePhoto'
@@ -45,6 +46,10 @@ function Header() {
             </Link>
             <div className="vplusmember">
                 <img src={vplusbg} alt="" className="vplusmemberbg" />
+
+            </div>
+            <div className="vplusmember-shadow">
+                <img src={shadow} alt="" />
             </div>
             <div className="wallet">
                 <Link to="/minewallet">
@@ -76,14 +81,17 @@ function Header() {
                         <span className="null3">0</span>
                         <span className="xiandou">鲜豆</span>
                     </div>
-                    <div className="white-bar">
-                        <span className="null4">8000</span>
-                        <span className="baitiao">白条</span>
-                    </div>
+                    <a href="https://m.jr.jd.com/consumer/baitiaom/index.html?source=#/index">
+                        <div className="white-bar">
+                            <span className="null4">8000</span>
+                            <span className="baitiao">白条</span>
+                        </div>
+                    </a>
+
                 </div>
             </div>
         </div>
-        
+
     )
 }
 export default Header

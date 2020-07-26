@@ -2,3 +2,91 @@
     height: 100vh;
     background-color: #F6F6F6;
 }
+
+.serverfocus-all {
+    height: 18vh;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+
+.serverfocusimg {
+    /* position: absolute; */
+}
+
+.focus-img {
+    position: relative;
+    border-top: 5px solid #F6F6F6;
+    border-left: 5px solid #F6F6F6;
+    left: -20px;
+    top: 20px;
+    width: 120px;
+    height: 120px;
+}
+
+.serverimg-focus {
+    /* width: 15px; */
+    background-color: #FF7772;
+    border-bottom-right-radius: 25px;
+    color: wheat;
+    left: 30px;
+    position: relative;
+    top: -65px;
+    z-index: 3;
+}
+
+.serverfocus-content {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.focusmore {
+    margin-top: 50px;
+    margin-left: 280px;
+    font-size: 27px;
+}
+
+.focuscontent-top {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.focuscontent-middle {
+    display: flex;
+    flex-direction: row;
+    color: #666666;
+    margin-top: 15px;
+}
+
+.focuscontent-down {
+    display: flex;
+    flex-direction: row;
+    color: #666666;
+    margin-top: 25px;
+}
+
+.down-separator {
+    margin-left: 15px;
+}
+
+.server-score {
+    color: #FFA14E;
+    margin-left: 15px;
+}
+
+.middle-sale {
+    margin-left: 15px;
+}
+
+.server-time {
+    margin-left: 90px;
+}
+
+.server-separator {
+    margin-left: 15px;
+    color: #666666;
+}
+
+.right-distance {
+    margin-left: 15px;
+}

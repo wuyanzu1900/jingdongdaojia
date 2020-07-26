@@ -31,9 +31,9 @@ function ServerFocus() {
                         <span className="dada">达达快递</span>
                     </span>
                 </div>
+              
             </div>
-
-
+            <div className="focusmore">没有更多门店了</div>
         </div>
     )
 }

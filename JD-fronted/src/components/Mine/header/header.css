@@ -88,11 +88,11 @@
 }
 
 .vplusmember {
-    z-index: 5;
+    z-index: 2;
     position: absolute;
     top: 250px;
     left: 16px;
-    top: 270px;
+    top: 268px;
     height: 120px;
     width: 720px;
     /* z-index: 0; */
@@ -100,6 +100,12 @@
 
 .vplusmemberbg {
     width: 720px;
+}
+
+.vplusmember-shadow {
+    position: relative;
+    margin-top: 175px;
+    z-index: 5;
 }
 
 .wallet {
@@ -165,6 +171,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 30px;
+    color: #000000;
 }
 
 .null1 {
