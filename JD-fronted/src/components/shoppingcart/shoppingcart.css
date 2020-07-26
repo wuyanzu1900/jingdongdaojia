@@ -66,12 +66,24 @@
 
 .shoppingcart-clear {
     color: #C3C3C3;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: 35px;
 }
 
 .shoppingcart-down {
-    margin-top: 20vh;
+    margin-top: 10vh;
+    margin-left: 38vw;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.shoppingcart-site {
+    width: 20px;
+    height: 24px;
+}
+
+.shoppingdown-site {
+    margin-left: 20px;
 }
 
 .shoppingcart-content {
@@ -105,32 +117,28 @@
 
 .shops1-title {
     color: #333333;
-    font-size: 32px;
     margin-top: 10px;
+}
+
+.numplus1 {
+    /* position: relative; */
+    /* left: -10px;
+    top: 30px; */
+    display: flex;
+    flex-direction: row;
+    margin-left: 320px;
+    margin-top: -10px;
 }
 
 .shop1-price {
     color: #FF6161;
-    font-size: 32px;
-}
-
-.shop1-reduce {
-    background-color: greenyellow;
-    margin-left: 300px;
-    border-radius: 50%;
-    font-size: 32px;
+    position: relative;
+    top: 30px;
 }
 
 .shop1-nums {
     color: #787878;
-    font-size: 32px;
-}
-
-.shop1-plus {
-    background-color: greenyellow;
     margin-left: 20px;
-    border-radius: 50%;
-    font-size: 32px;
 }
 
 .adaofu {
@@ -149,7 +157,7 @@
 
 .shops2-title {
     color: #333333;
-    font-size: 32px;
+    margin-top: 10px;
 }
 
 .shop1-position {
@@ -163,8 +171,54 @@
 }
 
 .shoppingcart-shops1 {
-    height: 10vh;
+    height: 13vh;
     display: flex;
     flex-direction: row;
     border-bottom: 2px solid #F5F5F5;
+    font-size: 32px;
+}
+
+.shoppingcart-check2 {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border: 5px solid #CECECE;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.content-checked2 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.shoppingcart-shops2 {
+    height: 13vh;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #F5F5F5;
+    font-size: 32px;
+}
+
+.shop2-price {
+    position: relative;
+    top: 30px;
+    color: #FF6161;
+}
+
+.numplus2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 320px;
+    margin-top: -10px;
+}
+
+.shop2-nums {
+    margin-left: 20px;
+}
+
+.shopadd {
+    margin-left: 20px;
 }
