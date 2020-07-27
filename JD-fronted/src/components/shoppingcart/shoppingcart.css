@@ -12,11 +12,19 @@
     top: 50px;
 }
 
+.spriteselect {
+    position: absolute;
+    margin-top: 40px;
+    width: 38px;
+    height: 350px;
+    margin-left: 20px;
+}
+
 .shoppingcart-header {
     background-color: #FCFCFC;
     display: flex;
     flex-direction: row;
-    height: 8vh;
+    height: 9vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -40,7 +48,7 @@
 .shoppingcart-storename {
     font-size: 32px;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 80px;
     margin-top: 35px;
 }
 
@@ -144,15 +152,15 @@
 .adaofu {
     width: 100px;
     height: 100px;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 60px;
+    margin-top: 30px;
 }
 
 .qingyang {
     width: 100px;
     height: 100px;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 60px;
+    margin-top: 30px;
 }
 
 .shops2-title {
@@ -163,11 +171,15 @@
 .shop1-position {
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .shop2-position {
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .shoppingcart-shops1 {

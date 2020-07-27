@@ -13,5 +13,6 @@ module.exports = {
     'GET /dailyPick': require('./rest/dailyPickType.json'),
     'GET /recharge': require('./rest/rechargeType.json'),
     'GET /errandshop': require('./rest/errandshopType.json'),
-    'GET /announcement': require('./rest/announcementType.json')
+    'GET /announcement': require('./rest/announcementType.json'),
+    'GET /shoppingcart': require('./rest/shoppingcartType.json')
 }
