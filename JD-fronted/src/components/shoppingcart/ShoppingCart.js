@@ -45,7 +45,7 @@ function ShoppingCart() {
                     <img src={shoppingcartarrow32} alt="" className="shoppingcart-arrow" />
                     <img src={shoppingcartdiscount} alt="" className="shoppingcart-discount" />
                     <span className="shoppingcart-divide">|</span>
-                    <span className="shoppingcart-clear">清空购物车</span>
+                    <span className="shoppingcart-clear" onClick={() => { setnums1(0);setnums2(0)}}>清空购物车</span>
                 </div>
                 <div className="shoppingcart-content">
                     <div className="shoppingcart-shops1">
