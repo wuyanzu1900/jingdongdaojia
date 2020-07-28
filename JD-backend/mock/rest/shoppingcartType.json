@@ -4,13 +4,15 @@
             "type": "adaofu",
             "name": "阿道夫无硅油洗发水800g",
             "img": "https://img10.360buyimg.com/n7//jfs/t1/94566/6/17149/23047/5e840780E4776f532/032d51ada422c02d.jpg",
-            "price": "￥148"
+            "price": "148"
         },
         {
             "type": "qingyang",
             "name": "清扬植觉净透去屑洗发露700ml",
             "img": "https://img10.360buyimg.com/n7//jfs/t1/146139/32/3454/123855/5f16851bE229c320e/cf703db436b3bce1.jpg",
-            "price": "￥67.8"
+            "price": "67.8",
+            "oldprice": "104.9"
+
 
         }
     ]

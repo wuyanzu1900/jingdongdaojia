@@ -1,6 +1,8 @@
 .shoppingcart {
     background-color: #F6F6F6;
     height: 100vh;
+    width: 100vw;
+    overflow: hidden;
 }
 
 .shoppingcart-allshops {
@@ -218,6 +220,7 @@
     position: relative;
     top: 30px;
     color: #FF6161;
+    left: -80px;
 }
 
 .numplus2 {
@@ -233,4 +236,55 @@
 
 .shopadd {
     margin-left: 20px;
+}
+
+.shoppingcart-pay {
+    height: 12vh;
+    background-color: #FFFFFF;
+    width: 702px;
+    /* margin-left: 25px; */
+}
+
+.shopingcart-cheaper {
+    font-size: 28px;
+    position: relative;
+    color: #9E9E9E;
+    left: 180px;
+    top: 60px;
+}
+
+.shoppingcart-allprice {
+    font-size: 32px;
+    position: relative;
+    font-weight: bold;
+    top: 20px;
+    left: 320px;
+}
+
+.shopingcart-btn {
+    width: 180px;
+    position: relative;
+    height: 75px;
+    left: 490px;
+    top: -35px;
+    border-radius: 35px;
+    background-color: #17D349;
+    border: hidden;
+    color: #FFFFFF;
+    font-size: 29px;
+}
+
+.shopingcart-cheaper {
+    font-size: 23px;
+    position: relative;
+    top: 55px;
+}
+
+.origin-price {
+    font-size: 32px;
+    color: #9B9B9B;
+    position: relative;
+    left: 110px;
+    top: 30px;
+    text-decoration: line-through;
 }
