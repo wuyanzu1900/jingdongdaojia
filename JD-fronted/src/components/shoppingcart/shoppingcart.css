@@ -288,3 +288,30 @@
     top: 30px;
     text-decoration: line-through;
 }
+
+.sprite-header {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 15px;
+    top: 35px;
+    background-color: greenyellow;
+}
+
+.sprite-middle {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 15px;
+    top: 200px;
+    background-color: greenyellow;
+}
+
+.sprite-footer {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 15px;
+    top: 350px;
+    background-color: greenyellow;
+}
