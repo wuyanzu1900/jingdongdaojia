@@ -18,6 +18,7 @@ function ShoppingCart() {
     const [shopsType, setShopsType] = useState('')
     const [nums1, setnums1] = useState(1)
     const [nums2, setnums2] = useState(1)
+    // const isSpriteheader = true
     useEffect(() => {
         fetch('http://localhost/shoppingcart')
             .then(res => res.json())
@@ -35,7 +36,9 @@ function ShoppingCart() {
                     <img src={spritimg} alt="" className="spriteselect" />
                 </div>
                 <div className="shoppingcart-header">
-                    <div className="sprite-header"></div>
+                    <div className="spriteheader">
+                    {/* {isSpriteheader ? {shopreduce} : {shopadd} } */}
+                    </div>
                     {/* {shop.ShopsType?.map((ShopsType)=>{ */}
                     {/* return( */}
                     <span className="shoppingcart-storename">
@@ -53,7 +56,7 @@ function ShoppingCart() {
                         {/* <span className="shoppingcart-check1">
                             <input className="content-checked1" type="checkbox" value="" />
                         </span> */}
-                        <div className="sprite-middle"></div>
+                        <div className="spritemiddle"></div>
                         <img src={adaofu} alt="" className="adaofu" />
                         <div className="shop1-position">
                             <span className="shops1-title">{shopsType[0]?.name}</span>
@@ -74,7 +77,7 @@ function ShoppingCart() {
                         {/* <div className="shoppingcart-check2">
                             <input className="content-checked2" type="checkbox" value="" />
                         </div> */}
-                        <div className="sprite-footer"></div>
+                        <div className="spritefooter"></div>
                         <img src={qingyang} alt="" className="qingyang" />
                         <div className="shop2-position">
                             <span className="shops2-title">{shopsType[1]?.name}</span>
